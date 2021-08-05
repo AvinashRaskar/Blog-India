@@ -1,0 +1,576 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.webName{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.webName .white{
+    color:#FFFFFF;
+}
+.webName .yellow{
+    color:#FFD616;
+}
+.webName .black{
+    color:#000000;
+}
+.navbar-brand{
+    color: #FFD616 !important;
+}
+.nav-item .nav-link:hover{
+    color: #FFD616 !important;
+}
+.navbar{
+    background-color: #000000 !important;
+}
+.navbar-dark .navbar-toggler{
+    background-color: white!important;
+    display: flex !important;
+    flex-direction: column !important;
+    outline: none !important;
+}
+.navbar-toggler-icon{
+    background-color:#FFFFFF !important;
+    display: flex !important;
+    height: 2px !important;
+   margin: 7px 0 !important;
+}
+.navbar .input-group{
+    width: 95%;
+}
+.navbar .input-group .form-control{
+    border-radius: 0 !important;
+}
+.navbar .input-group button{
+    outline: 0!important;
+    border: 0 !important;
+}
+.navbar-collapse{
+    background-color: #000000 !important;
+    font-weight: lighter;
+}
+.header .social-icon .icon{
+    font-size:1.2rem !important;
+    cursor: pointer;
+}
+.header .btn{
+    background-color:#FFFFFF!important;
+    border: 3px solid #FFD616;
+    color: #000000 !important;
+    font-weight: 500;
+    font-size: 1.2rem !important;
+    padding: 0.2rem 0.5rem!important;
+    outline: none !important;
+}
+.header .btn{
+    padding: 0.1rem 1.5rem!important;
+    font-weight: bold;
+}
+.nav-item .nav-link{
+    color: #FFFFFF !important;
+}
+
+@media only screen and (max-width:990px) {
+    .navbar-collapse{
+        padding-left: 1.5rem ;
+        padding-bottom: 1.5rem;
+    }
+    
+    .collapsing,.show{
+        position: absolute !important;
+        z-index: 9999;
+        width: 100%;
+        left: 0;
+        top: 60px;
+        background:var(--black);
+       
+    }
+}   
+@media only screen and (max-width:574px){
+    .header .title-top{
+        flex-direction: column;
+    }
+    .header .title-top>div{
+        margin: 0.2rem 0;
+    }
+    
+}  
+.hero{
+  
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+}  
+.row {
+    width:100%;
+    background:rgb(101, 101, 104);
+    display:block;
+    overflow:hidden;
+  }
+.image3{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+   opacity: 0.9;
+}
+.img4{
+    width: 10%;
+    margin-left: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.class1{
+    color: white;
+    text-align: center;
+    height: 30vh;
+}
+.class2{
+    background-color: rgb(255, 208, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.class3{
+    background-color: rgb(255, 208, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.class4{
+    background-color: rgb(255, 208, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.img{
+    width: 100%;
+    height: 100vh;
+    -webkit-filter: grayscale(80%);
+         filter: rgb(0, 0, 0);
+}
+.centered {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .view{
+      height: 80vh;
+      width: 100%;
+      margin: 30px 0px;
+  }
+.img2{
+    float: left;
+    width: 40%;
+    height: 10%;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.text1{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 100px;
+}
+.text2{
+ text-align: center;
+}
+.view1{
+    width: 100%;
+    height: 80vh;
+}
+.img3{
+    float: right;
+    width: 40%;
+    height: 10%;
+    margin-right: 150px;
+}
+.text3{
+    font-weight: 600;
+   text-align: center;
+   padding-top: 80px;
+   padding-right: 100px;
+}
+.text4{
+    text-align: center;
+}
+.middle{
+    width: 100%;
+    height: 100vh;
+}
+.mycircle{
+    float: left;
+    width: 45%;
+    height: 350px;
+    background-color: gold;
+    border-bottom-right-radius: 400px;
+    border-top-right-radius: 400px;
+}
+table{
+    border-top: none;
+    width: 30%;
+    float: right;
+    margin-top: 60px;
+    margin-right: 60px;
+    
+}
+.th1{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(255, 217, 0);
+    
+}
+.th2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+.th3{
+    margin-top: 60px;
+}
+ul {
+ list-style: none;
+ padding: 0;
+}
+
+.webName {
+ font-size: 3rem;
+ font-weight: bold;
+}
+
+.webName .white {
+ color: var(--white);
+}
+
+.webName .yellow {
+ color: var(--yellow);
+}
+
+a {
+ color: var(--white) !important;
+ font-weight: lighter;
+}
+
+footer {
+ min-height: 100vh;
+ background-color: #000000;
+ color: #FFFFFF;
+}
+
+footer .footer-content ul li {
+ margin: 1rem 0;
+ text-transform: capitalize;
+}
+
+footer .social-icon>.icon {
+ background-color: rgba(229, 229, 229, 0.91);
+ ;
+ color: #000000;
+ padding: 0.5rem 1rem;
+ border-radius: 50%;
+ margin: 0.3rem;
+ cursor: pointer;
+}
+
+@media only screen and (max-width:990px){
+    .about-text-font{
+        margin-left: 60px;
+    }
+
+}
+
+@media only screen and (max-width:990px) {
+ .footer-content {
+     padding-bottom: 0 !important;
+ }
+
+ footer .social {
+     margin-top: 3rem;
+ }
+}
+
+@media only screen and (max-width:482px) {
+
+ .categories,
+ .story,
+ .information {
+     margin-top: 1rem;
+     text-align: center;
+ }
+}
+@media only screen and (max-width:908px) {
+    .img2{
+        float: left;
+        width: 30%;
+        height: 10%;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .text1{
+        font-weight: 600;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .text2{
+     text-align: center;
+    }
+    .img3{
+        float: right;
+        width: 30%;
+        height: 10%;
+        margin-right: 80px;
+    }
+    .text3{
+        font-weight: 600;
+       text-align: center;
+       padding-top: 10px;
+    }
+    .text4{
+        text-align: center;
+    }
+    .hero{
+        height: 130vh;
+    }
+    .column4{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:771px){
+    .img3{
+        float: right;
+        width: 30%;
+        height: 10%;
+        margin-right: 20px;
+    }
+    .text3{
+        font-weight: 400;
+       text-align: center;
+       padding-top: 30px;
+    }
+    .text4{
+        text-align: center;
+        font-size: 12px;
+    }
+    .img2{
+        float: left;
+        width: 30%;
+        height: 10%;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .text1{
+        font-weight: 400;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .text2{
+     text-align: center;
+     font-size: 12px;
+    }
+    .img4{
+        margin-left: 300px !important;
+    }
+}
+@media only screen and (max-width:607px){
+    .img3{
+       margin-top: 30px;
+        width: 40%;
+        height: 10%;
+        
+    }
+    .text3{
+        font-weight: 400;
+      
+      
+    }
+    .text4{
+        text-align: justify;
+        font-size: 10px;
+    }
+    .img2{
+        
+        width:40%;
+        height: 10%;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .text1{
+        font-weight: 400;
+        text-align: center;
+       
+    }
+    .text2{
+     text-align: justify;
+     font-size: 10px;
+    }
+    .column{
+        height: 130vh;
+    }
+}
+@media only screen and (max-width:512px){
+       .img2 ,.img3, .mycircle , .img{
+           width: 100%;
+           float: none;
+       }
+       .view , .view1{
+           height: 120vh;
+       }
+       .text1 ,.text3{
+        font-weight: 600;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .text2 ,.text4{
+     text-align: center;
+     font-size: 15px;
+    }
+    .text3{
+        margin-left: 60px;
+        margin-top: 0px;
+    }
+    .middle{
+        width: 100%;
+        height: 150vh;
+    }
+    .table{
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+        margin-right: 100px;
+        border-collapse: separate;
+        border-spacing: 50px 0;
+    }
+    .centered{
+        font-size: 30px;
+        margin-top: 15%;
+    }
+}
+@media only screen and (max-width:488px){
+    .centered{
+        font-size: 25px;
+        top: 80%;
+        left: 50%;
+        
+    }
+    .img4{
+        margin-left: 240px !important;
+    }
+}
+@media only screen and (max-width:579px){
+    .hero{
+        width: 100%;
+        height: 150vh;
+    }
+    .column{
+        width: 100%;
+        height: 50vh;
+    }
+    .class1{
+        font-size: 13px;
+    }
+    .class2{
+        margin-top: 30px;
+    }
+    .class3{
+        margin-top: 30px;
+    }
+    .class4{
+        margin-top: 20px;
+    }
+    .centered{
+        top: 90%;
+    }
+}
+@media only screen and (max-width:405px){
+    .column{
+       height: 60vh;
+    }
+
+    .centered{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hero{
+        height: 180vh;
+    }
+}
+@media only screen and (max-width:341px){
+    .column{
+        height: 70vh;
+    }
+    .hero{
+        height: 210vh;
+    }
+    .subscribe{
+        margin-top: 20px !important;
+    }
+    .centered{
+        top: 90% !important;
+    }
+    .img4{
+        margin-left: 150px !important;
+        width: 20%;
+    }
+}
+@media only screen and (max-width:488px){
+    .centered{
+        top: 70%;
+       
+}
+}
+@media only screen and (max-width: 318px){
+    .centered{
+        font-size: 25px;
+       top: 90%;
+    }
+
+
+}
+@media only screen and (max-width: 360px){
+    .image3{
+        height: 70vh;
+    }
+    .centered{
+        top: 60%;
+    }
+    .class1,.class2,.class3,.class4{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .hero{
+        height: 130vh;
+    }
+    .view{
+        height: 80vh;
+    }
+    .view1{
+        height: 80vh;
+    }
+    .middle{
+        height: 120vh;
+    }
+    .img4{
+        margin-left: 150px !important;
+    }
+}
+@media only screen and (max-width: 995px){
+    .img4{
+        margin-left: 500px;
+    }
+    .centered{
+        top:  80%;
+        }
+    }
+
